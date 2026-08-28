@@ -1,1 +1,674 @@
+<
+<!-- Google Fonts: Montserrat (headings) + Oswald (condensed fallback for Schabo Condensed) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     BACKGROUND WAVES
+========================= -->
+<div class="waves" aria-hidden="true">
+    <div class="wave wave-one"></div>
+    <div class="wave wave-two"></div>
+    <div class="wave wave-three"></div>
+    <div class="wave wave-four"></div>
+</div>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+<header class="site-nav">
+    <div class="nav-inner">
+        <a href="#top" class="logo-mark"><span class="logo-dot" aria-hidden="true"></span>PixelCraft Studio</a>
+
+        <nav aria-label="Primary">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#gallery">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#workflow">Process</a></li>
+                <li><a href="#before-you-order">Before You Order</a></li>
+                <li><a href="#comments">Comments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn nav-cta" type="button" id="navOrderBtn">Order Now</button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+<main class="container" id="top">
+
+    <!-- =========================
+         HERO
+    ========================= -->
+    <section class="hero">
+        <p class="section-eyebrow">Graphic Design Studio</p>
+        <h1 class="hero-heading">Visuals That Bring Your Brand to Life</h1>
+        <p class="hero-sub">Posters, branding, campaigns and promotional graphics — designed, refined, and delivered for businesses, events and creators who want to stand out.</p>
+        <div class="hero-actions">
+            <button class="btn btn-primary" type="button" id="heroOrderBtn">Order a Design</button>
+            <a class="btn btn-ghost" href="#gallery">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- =========================
+         DASHBOARD / OVERVIEW
+    ========================= -->
+    <section class="section" id="dashboard" aria-labelledby="dashboard-title">
+        <p class="section-eyebrow">Studio Overview</p>
+        <h2 class="section-title" id="dashboard-title">Portfolio Dashboard</h2>
+        <p class="section-subtitle">A quick snapshot of the work behind this portfolio.</p>
+
+        <div class="stats-grid">
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="20">0</div>
+                <div class="stat-label">Total Designs</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="5">0</div>
+                <div class="stat-label">Design Categories</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="120" data-suffix="+">0</div>
+                <div class="stat-label">Completed Projects</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="10">0</div>
+                <div class="stat-label">Available Services</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="60" data-suffix="+">0</div>
+                <div class="stat-label">Client Orders</div>
+            </div>
+            <div class="glass-card stat-card">
+                <div class="stat-number" data-count="6">0</div>
+                <div class="stat-label">Featured Designs</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         SERVICES
+    ========================= -->
+    <section class="section" id="services" aria-labelledby="services-title">
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title" id="services-title">Services</h2>
+        <p class="section-subtitle">Pick a service below or jump straight to ordering a custom design.</p>
+
+        <div class="services-grid" id="servicesGrid">
+            <button class="glass-card service-card" type="button" data-service="Poster Design">
+                <div class="service-icon" aria-hidden="true">01</div>
+                <div class="service-title">Poster Design</div>
+                <div class="service-desc">Eye-catching posters for events, sales, sports and promotions.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Social Media Design">
+                <div class="service-icon" aria-hidden="true">02</div>
+                <div class="service-title">Social Media Design</div>
+                <div class="service-desc">On-brand post and story graphics built for engagement.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="YouTube Thumbnail Design">
+                <div class="service-icon" aria-hidden="true">03</div>
+                <div class="service-title">YouTube Thumbnail Design</div>
+                <div class="service-desc">High-contrast thumbnails designed to boost click-through rate.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="YouTube Banner Design">
+                <div class="service-icon" aria-hidden="true">04</div>
+                <div class="service-title">YouTube Banner Design</div>
+                <div class="service-desc">Channel art sized correctly across every device.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Logo & Typography Design">
+                <div class="service-icon" aria-hidden="true">05</div>
+                <div class="service-title">Logo &amp; Typography Design</div>
+                <div class="service-desc">Custom wordmarks and typographic identities.</div>
+            </button>
+            <button class="glass-card service-card" type=!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PixelCraft Studio — Graphic Design Portfolio</title>
+<meta name="description" content="Professional graphic design portfolio and order studio — posters, branding, campaigns and promotional graphics.">
+"button" data-service="Advertising Design">
+                <div class="service-icon" aria-hidden="true">06</div>
+                <div class="service-title">Advertising Design</div>
+                <div class="service-desc">Print and digital ad creative built to convert.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Event Design">
+                <div class="service-icon" aria-hidden="true">07</div>
+                <div class="service-title">Event Design</div>
+                <div class="service-desc">Flyers, banners and signage for events of any size.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Business Promotional Design">
+                <div class="service-icon" aria-hidden="true">08</div>
+                <div class="service-title">Business Promotional Design</div>
+                <div class="service-desc">Marketing collateral tailored to your business goals.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Campaign Design">
+                <div class="service-icon" aria-hidden="true">09</div>
+                <div class="service-title">Campaign Design</div>
+                <div class="service-desc">Cohesive visual systems for multi-asset campaigns.</div>
+            </button>
+            <button class="glass-card service-card" type="button" data-service="Custom Graphic Design">
+                <div class="service-icon" aria-hidden="true">10</div>
+                <div class="service-title">Custom Graphic Design</div>
+                <div class="service-desc">Something else in mind? Let's design it from scratch.</div>
+            </button>
+        </div>
+    </section>
+
+    <!-- =========================
+         HOW IT WORKS
+    ========================= -->
+    <section class="section" id="workflow" aria-labelledby="workflow-title">
+        <p class="section-eyebrow">Simple Process</p>
+        <h2 class="section-title" id="workflow-title">How It Works</h2>
+        <p class="section-subtitle">Six steps from idea to final delivery.</p>
+
+        <div class="workflow-list">
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">01</div>
+                <div class="workflow-title">Choose a Design</div>
+                <div class="workflow-desc">Browse the portfolio and pick a style that fits.</div>
+            </div>
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">02</div>
+                <div class="workflow-title">Contact the Designer</div>
+                <div class="workflow-desc">Reach out via WhatsApp, email or the contact form.</div>
+            </div>
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">03</div>
+                <div class="workflow-title">Submit Requirements</div>
+                <div class="workflow-desc">Share your brand details, text and references.</div>
+            </div>
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">04</div>
+                <div class="workflow-title">Design Creation</div>
+                <div class="workflow-desc">Your design is created based on your requirements.</div>
+            </div>
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">05</div>
+                <div class="workflow-title">Review &amp; Revisions</div>
+                <div class="workflow-desc">Review the draft and request adjustments.</div>
+            </div>
+            <div class="glass-card workflow-step">
+                <div class="workflow-num">06</div>
+                <div class="workflow-title">Final Delivery</div>
+                <div class="workflow-desc">Receive final, high-resolution files.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         GALLERY — SECTION 01
+    ========================= -->
+    <section class="section" id="gallery" aria-labelledby="section1-title">
+
+        <h2 class="section-title" id="section1-title">
+            Creative Typography &amp; Branding
+        </h2>
+
+        <div class="product-grid">
+
+            <button type="button" class="product-card" data-title="Typography Cutout">
+                <div class="image-box">
+                    <img src="image.jpeg" alt="Typography Cutout">
+                </div>
+                <div class="card-title">Typography Cutout</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Typographic Logo">
+                <div class="image-box">
+                    <img src="img.jpeg" alt="Typographic Logo">
+                </div>
+                <div class="card-title">Typographic Logo</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Image Filled Typography">
+                <div class="image-box">
+                    <img src="omg.jpeg" alt="Image Filled Typography">
+                </div>
+                <div class="card-title">Image Filled Typography</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Commercial Graphic Designs">
+                <div class="image-box">
+                    <img src="images (5).jpg" alt="Commercial Graphic Designs">
+                </div>
+                <div class="card-title">Commercial Graphic Designs</div>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         GALLERY — SECTION 02
+    ========================= -->
+    <section class="section" aria-labelledby="section2-title">
+
+        <h2 class="section-title" id="section2-title">
+            Promotional &amp; Entertainment Designs
+        </h2>
+
+        <div class="product-grid">
+
+            <button type="button" class="product-card" data-title="Sports Promotional Poster">
+                <div class="image-box">
+                    <img src="images (2).jpg" alt="Sports Promotional Poster">
+                </div>
+                <div class="card-title">Sports Promotional Poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Comic Book Fan Art">
+                <div class="image-box">
+                    <img src="image.6.webp" alt="Comic Book Fan Art">
+                </div>
+                <div class="card-title">Comic Book Fan Art</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Automotive Promotional Poster">
+                <div class="image-box">
+                    <img src="images.jpg" alt="Automotive Promotional Poster">
+                </div>
+                <div class="card-title">Automotive Promotional Poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Restraunt Promotional Designs">
+                <div class="image-box">
+                    <img src="images (1).jpg" alt="Restaurant Promotional Designs">
+                </div>
+                <div class="card-title">Restraunt Promotional Designs</div>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         GALLERY — SECTION 03
+    ========================= -->
+    <section class="section" aria-labelledby="section3-title">
+
+        <h2 class="section-title" id="section3-title">
+            Campaign &amp; Business Designs
+        </h2>
+
+        <div class="product-grid">
+
+            <button type="button" class="product-card" data-title="Global campigns design">
+                <div class="image-box">
+                    <img src="img.06.jpg" alt="Global campigns design">
+                </div>
+                <div class="card-title">Global campigns design</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="YouTube Channel Banner">
+                <div class="image-box">
+                    <img src="img.12.jpeg" alt="YouTube Channel Banner">
+                </div>
+                <div class="card-title">YouTube Channel Banner</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Charity poster">
+                <div class="image-box">
+                    <img src="img.11.jpeg" alt="Charity poster">
+                </div>
+                <div class="card-title">Charity poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Real Estate promotional poster">
+                <div class="image-box">
+                    <img src="img.10.jpeg" alt="Real Estate promotional poster">
+                </div>
+                <div class="card-title">Real Estate promotional poster</div>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         GALLERY — SECTION 04
+    ========================= -->
+    <section class="section" aria-labelledby="section4-title">
+
+        <h2 class="section-title" id="section4-title">
+            Marketing &amp; Promotional Graphics
+        </h2>
+
+        <div class="product-grid">
+
+            <button type="button" class="product-card" data-title="Beverage and Food Design">
+                <div class="image-box">
+                    <img src="img.09.jpeg" alt="Beverage and Food Design">
+                </div>
+                <div class="card-title">Beverage and Food Design</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Election Campaigns design">
+                <div class="image-box">
+                    <img src="image.7.jpg" alt="Election Campaigns design">
+                </div>
+                <div class="card-title">Election Campaigns design</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="YouTube thumbnail designs">
+                <div class="image-box">
+                    <img src="image.13.jpeg" alt="YouTube thumbnail designs">
+                </div>
+                <div class="card-title">YouTube thumbnail designs</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Workshop poster">
+                <div class="image-box">
+                    <img src="image.0.jpeg" alt="Workshop poster">
+                </div>
+                <div class="card-title">Workshop poster</div>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         GALLERY — SECTION 05
+    ========================= -->
+    <section class="section" aria-labelledby="section5-title">
+
+        <h2 class="section-title" id="section5-title">
+            Events, Culture &amp; Special Promotions
+        </h2>
+
+        <div class="product-grid">
+
+            <button type="button" class="product-card" data-title="Sports Event Match Poster">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-08-28 at 9.30.10 AM.jpeg" alt="Sports Event Match Poster">
+                </div>
+                <div class="card-title">Sports Event Match Poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Travel & Tourism Poster">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-08-28 at 9.30.10 AM (4).jpeg" alt="Travel &amp; Tourism Poster">
+                </div>
+                <div class="card-title">Travel &amp; Tourism Poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Cultural festival poster">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-08-28 at 9.30.09 AM.jpeg" alt="Cultural festival poster">
+                </div>
+                <div class="card-title">Cultural festival poster</div>
+            </button>
+
+            <button type="button" class="product-card" data-title="Sale and discount poster">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-08-28 at 9.30.09 AM (1).jpeg" alt="Sale and discount poster">
+                </div>
+                <div class="card-title">Sale and discount poster</div>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         BEFORE YOU ORDER
+    ========================= -->
+    <section class="section" id="before-you-order" aria-labelledby="byo-title">
+        <p class="section-eyebrow">Before You Order</p>
+        <h2 class="section-title" id="byo-title">What To Have Ready</h2>
+        <p class="section-subtitle">Having these ready speeds up the design process and reduces revisions.</p>
+
+        <div class="checklist-grid">
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Exact Text / Content</strong>All wording that must appear on the design.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Logo</strong>A high-resolution logo file, if applicable.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Brand Colors</strong>Hex codes or examples of your brand palette.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Required Dimensions</strong>Exact size or platform the design is for.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Reference / Example Images</strong>Any style you'd like the design to follow.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Deadline</strong>When you need the final files delivered.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Preferred File Format</strong>PNG, JPG, PDF or source file.</div>
+            </div>
+            <div class="glass-card checklist-item">
+                <div class="checklist-mark" aria-hidden="true">✓</div>
+                <div class="checklist-text"><strong>Special Instructions</strong>Anything else the designer should know.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         COMMENTS / QUICK ORDER NOTE
+    ========================= -->
+    <section class="section" id="comments" aria-labelledby="comments-title">
+        <p class="section-eyebrow">Quick Message</p>
+        <h2 class="section-title" id="comments-title">Leave a Comment</h2>
+        <p class="section-subtitle">Don't want to fill the full order form? Drop a quick note here with what you need and I'll follow up.</p>
+
+        <div class="glass-card comment-box">
+            <form class="comment-form" id="commentForm" novalidate>
+                <div class="field"><label for="cName">Your Name</label><input type="text" id="cName" name="name" placeholder="Your name" required></div>
+                <div class="field"><label for="cContact">WhatsApp / Email (optional)</label><input type="text" id="cContact" name="contact" placeholder="So I can reply to you"></div>
+                <div class="field"><label for="cMessage">Your Message / Order Request</label><textarea id="cMessage" name="message" placeholder="Tell me what design you need..." required></textarea></div>
+                <button class="btn btn-primary" type="submit">Post Comment</button>
+                <p class="form-note">Comments are saved in this browser only — for me to actually receive your request, please also reach out via WhatsApp or email below.</p>
+            </form>
+
+            <ul class="comment-list" id="commentList" aria-live="polite"></ul>
+        </div>
+    </section>
+
+    <!-- =========================
+         CONTACT
+    ========================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="glass-card contact-panel">
+            <p class="section-eyebrow">Get In Touch</p>
+            <h2 class="section-title" id="contact-title">Have a Design Project in Mind?</h2>
+            <p class="section-subtitle" style="margin-bottom:0;">Reach out directly, or submit an order request and I'll follow up shortly.</p>
+
+            <div class="contact-actions">
+                <a class="btn btn-primary" href="https://wa.me/12345678900" target="_blank" rel="noopener">WhatsApp</a>
+                <a class="btn btn-ghost" href="tel:03323463085">Call</a>
+                <a class="btn btn-ghost" href="mailto:hello@pixelcraftstudio.com">Email</a>
+                <button class="btn btn-ghost" type="button" id="contactOrderBtn">Order Now</button>
+                <button class="btn btn-ghost" type="button" id="contactDesignerBtn">Contact Designer</button>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="glass-card contact-info-card">
+                    <div class="contact-info-label">WhatsApp</div>
+                    <a class="contact-info-value" href="https://wa.me/12345678900" target="_blank" rel="noopener">+1 234 567 8900</a>
+                </div>
+                <div class="glass-card contact-info-card">
+                    <div class="contact-info-label">Phone</div>
+                    <a class="contact-info-value" href="tel:03323463085">033 2346 3085</a>
+                </div>
+                <div class="glass-card contact-info-card">
+                    <div class="contact-info-label">Email</div>
+                    <a class="contact-info-value" href="mailto:hello@pixelcraftstudio.com">hello@pixelcraftstudio.com</a>
+                </div>
+                <div class="glass-card contact-info-card">
+                    <div class="contact-info-label">Social</div>
+                    <a class="contact-info-value" href="#" onclick="return false;">@pixelcraft.studio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- =========================
+     FOOTER
+========================= -->
+<footer class="site-footer">
+    <div class="container" style="padding-top:0;padding-bottom:0;">
+        <div class="footer-grid">
+            <div>
+                <a href="#top" class="logo-mark"><span class="logo-dot" aria-hidden="true"></span>PixelCraft Studio</a>
+                <p class="footer-desc">Graphic design studio crafting posters, branding and promotional graphics for businesses, creators and events.</p>
+                <div class="footer-social">
+                    <a href="#" onclick="return false;" aria-label="Instagram">IG</a>
+                    <a href="#" onclick="return false;" aria-label="Facebook">FB</a>
+                    <a href="#" onclick="return false;" aria-label="Behance">BE</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-heading">Quick Links</div>
+                <ul class="footer-links">
+                    <li><a href="#gallery">Portfolio</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#workflow">Process</a></li>
+                    <li><a href="#before-you-order">Before You Order</a></li>
+                    <li><a href="#comments">Leave a Comment</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-heading">Services</div>
+                <ul class="footer-links">
+                    <li><a href="#services">Poster Design</a></li>
+                    <li><a href="#services">Social Media Design</a></li>
+                    <li><a href="#services">Logo &amp; Branding</a></li>
+                    <li><a href="#services">Campaign Design</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-heading">Contact</div>
+                <ul class="footer-links">
+                    <li><a href="https://wa.me/12345678900" target="_blank" rel="noopener">WhatsApp</a></li>
+                    <li><a href="tel:03323463085">033 2346 3085</a></li>
+                    <li><a href="mailto:hello@pixelcraftstudio.com">hello@pixelcraftstudio.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© <span id="footerYear"></span> PixelCraft Studio. All rights reserved.</span>
+            <span>Designed for clients who want more than a template.</span>
+        </div>
+    </div>
+</footer>
+
+<!-- =========================
+     MODAL: DESIGN DETAIL
+========================= -->
+<div class="modal-overlay" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="detailModalTitle">
+    <div class="modal-panel">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button>
+        <div class="modal-grid">
+            <div class="modal-image">
+                <img id="detailImage" src="" alt="">
+            </div>
+            <div>
+                <div class="modal-category" id="detailCategory"></div>
+                <h3 class="modal-title" id="detailModalTitle"></h3>
+                <p class="modal-desc" id="detailDesc"></p>
+                <div class="modal-meta">
+                    <div class="meta-item"><div class="meta-label">Design Type</div><div class="meta-value" id="detailType"></div></div>
+                    <div class="meta-item"><div class="meta-label">Suitable Usage</div><div class="meta-value" id="detailUsage"></div></div>
+                    <div class="meta-item"><div class="meta-label">Customization</div><div class="meta-value" id="detailCustom"></div></div>
+                    <div class="meta-item"><div class="meta-label">Size / Format</div><div class="meta-value" id="detailSize"></div></div>
+                    <div class="meta-item"><div class="meta-label">Delivery</div><div class="meta-value" id="detailDelivery"></div></div>
+                    <div class="meta-item"><div class="meta-label">Revisions</div><div class="meta-value" id="detailRevisions"></div></div>
+                </div>
+                <div class="modal-price" id="detailPrice"></div>
+                <div class="modal-actions">
+                    <button class="btn btn-primary" type="button" id="orderThisDesignBtn">Order This Design</button>
+                    <button class="btn btn-ghost" type="button" id="contactFromDetailBtn">Contact Designer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     MODAL: ORDER FORM
+========================= -->
+<div class="modal-overlay" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+    <div class="modal-panel" style="max-width:640px;">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button>
+        <div class="modal-category">Order Request</div>
+        <h3 class="modal-title" id="orderModalTitle">Order This Design</h3>
+        <p class="modal-desc">Fill in the details below — you'll be contacted to confirm requirements and pricing.</p>
+
+        <form class="order-form" id="orderForm" novalidate>
+            <div class="field"><label for="ofName">Client Name</label><input type="text" id="ofName" name="clientName" placeholder="Your full name" required></div>
+            <div class="field"><label for="ofWhatsapp">WhatsApp Number</label><input type="tel" id="ofWhatsapp" name="whatsapp" placeholder="+1 234 567 8900" required></div>
+            <div class="field"><label for="ofEmail">Email Address</label><input type="email" id="ofEmail" name="email" placeholder="you@email.com" required></div>
+            <div class="field">
+                <label for="ofDesignType">Design Type</label>
+                <select id="ofDesignType" name="designType">
+                    <option>Poster Design</option>
+                    <option>Social Media Design</option>
+                    <option>YouTube Thumbnail Design</option>
+                    <option>YouTube Banner Design</option>
+                    <option>Logo &amp; Typography Design</option>
+                    <option>Advertising Design</option>
+                    <option>Event Design</option>
+                    <option>Business Promotional Design</option>
+                    <option>Campaign Design</option>
+                    <option>Custom Graphic Design</option>
+                </select>
+            </div>
+            <div class="field field-full"><label for="ofSelectedDesign">Selected Design</label><input type="text" id="ofSelectedDesign" name="selectedDesign" placeholder="e.g. Sports Promotional Poster"></div>
+            <div class="field"><label for="ofSize">Required Size</label><input type="text" id="ofSize" name="size" placeholder="e.g. A3, Instagram Post"></div>
+            <div class="field">
+                <label for="ofFormat">Preferred Format</label>
+                <select id="ofFormat" name="format">
+                    <option>PNG</option>
+                    <option>JPG</option>
+                    <option>PDF</option>
+                    <option>Source File (PSD/AI)</option>
+                </select>
+            </div>
+            <div class="field"><label for="ofDeadline">Deadline</label><input type="date" id="ofDeadline" name="deadline"></div>
+            <div class="field"><label for="ofQuantity">Quantity</label><input type="number" id="ofQuantity" name="quantity" min="1" value="1"></div>
+            <div class="field field-full"><label for="ofBrand">Brand Name</label><input type="text" id="ofBrand" name="brandName" placeholder="Your business or brand name"></div>
+            <div class="field field-full"><label for="ofText">Text To Be Included</label><textarea id="ofText" name="textContent" placeholder="Exact wording to appear on the design"></textarea></div>
+            <div class="field"><label for="ofColors">Preferred Colors</label><input type="text" id="ofColors" name="colors" placeholder="e.g. Navy, gold"></div>
+            <div class="field"><label for="ofReference">Reference Image Upload</label><input type="file" id="ofReference" name="reference" accept="image/*"></div>
+            <div class="field field-full"><label for="ofRequirements">Description / Requirements</label><textarea id="ofRequirements" name="requirements" placeholder="Describe what you need"></textarea></div>
+            <div class="field field-full"><label for="ofInstructions">Additional Instructions</label><textarea id="ofInstructions" name="instructions" placeholder="Anything else the designer should know"></textarea></div>
+
+            <div class="field-full">
+                <button class="btn btn-primary btn-block" type="submit">Submit Order Request</button>
+                <p class="form-note">Files aren't uploaded to a server in this preview — connect a backend or form service to receive submissions.</p>
+                <div class="form-success" id="orderSuccess">Thanks! Your order request has been prepared. Please also confirm via WhatsApp or email so nothing gets missed.</div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+<script src="script.js"></script>
+
+</body>
+</html>
